@@ -43,15 +43,15 @@ export default function Drinks() {
     ]
 
     return (
-        <div className="grid md:grid-cols-4 grid-cols-2 gap-3 w-90 w-10/12 font-bold">
+        <div className="grid md:grid-cols-4 grid-cols-2 gap-3 w-90 w-10/12 font-rubik font-bold">
             {drinks.map((drink) => (
-                <div className="shadow-xl rounded-xl">
+                <div className="bg-gray-200 shadow-xl rounded-xl">
                     <div className="hover:opacity-30 p-2">
                         <Image
                             src={drink.gambar}
                         />
                     </div>
-                    <div className="grid grid-cols-1 justify-items-center md:text-sm p-2">
+                    <div className="grid grid-cols-1 justify-items-center md:text-xl p-2">
                         <span>{drink.name} </span>
                         <span>{drink.price}  </span>
                         <div className="text-3xl text-green-300 space-x-3">

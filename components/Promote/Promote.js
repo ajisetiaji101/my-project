@@ -29,9 +29,9 @@ export default function Promote() {
     ]
 
     return (
-        <div className="grid md:grid-cols-4 grid-cols-2 gap-3 w-90 w-10/12 font-bold">
+        <div className="grid md:grid-cols-4 grid-cols-2 gap-3 w-90 w-10/12 font-bold font-rubik">
             {promotes.map((promote) => (
-                <div className="shadow-xl rounded-xl">
+                <div className="bg-gray-200 shadow-xl rounded-xl">
                     <div className="hover:opacity-30 p-2">
                         <Image
                             src={promote.gambar}

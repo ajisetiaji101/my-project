@@ -27,11 +27,11 @@ export default function Firstmenu() {
         <div className="grid md:grid-cols-3 grid-cols-1 gap-2 w-90 md:w-10/12 w-1/3  text-center font-bold">
             {datas.map((data) => (
                 <Link href={data.link}>
-                    <div className="shadow-md rounded-xl hover:opacity-30">
+                    <div className="bg-gray-200 shadow-md rounded-xl hover:opacity-30">
                             <Image
                                 src={data.gambar}
                             />
-                        <p className="p-2">{data.name}</p>
+                        <p className="p-2 font-rubik">{data.name}</p>
                     </div>
                 </Link>
             ))}
