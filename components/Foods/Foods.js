@@ -37,7 +37,7 @@ export default function Foods() {
                             src={food.gambar}
                         />
                     </div>
-                    <div className="flex flex-col items-center p-2">
+                    <div className="grid grid-cols-1 justify-items-center items-center p-2">
                         <span>{food.name} </span>
                         <span>{food.price}  </span>
                         <div className="text-3xl text-green-300 space-x-3">
