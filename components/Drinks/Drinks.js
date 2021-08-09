@@ -51,7 +51,7 @@ export default function Drinks() {
                             src={drink.gambar}
                         />
                     </div>
-                    <div className="grid grid-cols-1 justify-items-center items-center md:text-sm p-2">
+                    <div className="grid grid-cols-1 justify-items-center md:text-sm p-2">
                         <span>{drink.name} </span>
                         <span>{drink.price}  </span>
                         <div className="text-3xl text-green-300 space-x-3">
