@@ -37,7 +37,7 @@ export default function Promote() {
                             src={promote.gambar}
                         />
                     </div>
-                    <div className="flex flex-col md:flex-row md:justify-evenly items-center md:text-xl p-2">
+                    <div className="flex flex-col items-center md:text-xl p-2">
                         <span>{promote.name} </span>
                         <span>{promote.price}  </span>
                         <div className="text-3xl text-green-300 space-x-3">

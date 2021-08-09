@@ -51,7 +51,7 @@ export default function Drinks() {
                             src={drink.gambar}
                         />
                     </div>
-                    <div className="flex flex-col md:flex-row md:justify-evenly items-center md:text-sm p-2">
+                    <div className="flex flex-col items-center md:text-sm p-2">
                         <span>{drink.name} </span>
                         <span>{drink.price}  </span>
                         <div className="text-3xl text-green-300 space-x-3">
